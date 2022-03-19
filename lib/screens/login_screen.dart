@@ -1,4 +1,7 @@
+
+import 'package:email_password_login/screens/dashboard.dart';
 import 'package:email_password_login/screens/home_screen.dart';
+import 'package:email_password_login/screens/museum1.dart';
 import 'package:email_password_login/screens/registration_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -117,8 +120,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: <Widget>[
                     SizedBox(
                         height: 200,
+                       
                         child: Image.asset(
-                          "assets/logo.png",
+                          "assets/logo2.jpg",
                           fit: BoxFit.contain,
                         )),
                     SizedBox(height: 45),
@@ -168,7 +172,7 @@ class _LoginScreenState extends State<LoginScreen> {
             .then((uid) => {
                   Fluttertoast.showToast(msg: "Login Successful"),
                   Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => HomeScreen())),
+                      MaterialPageRoute(builder: (context) => Dashboard())),
                 });
       } on FirebaseAuthException catch (error) {
         switch (error.code) {

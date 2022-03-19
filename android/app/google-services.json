@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939848453931",
+    "project_id": "bookmymoment-b0809",
+    "storage_bucket": "bookmymoment-b0809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939848453931:android:3e65392503903d7bbbbf6e",
+        "android_client_info": {
+          "package_name": "com.example.email_password_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939848453931-fd2vc2585e7gf5ur67sh49mljv3ienkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.email_password_login",
+            "certificate_hash": "e4e42d8dacf7733a4b2eaaf963672e9a14f5f1ce"
+          }
+        },
+        {
+          "client_id": "939848453931-noca2rbh0ajl6lm42dpe4o7ot6u6mno2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgwjcnKdZgimEXQABOO2d40shCM3dtGJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939848453931-noca2rbh0ajl6lm42dpe4o7ot6u6mno2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
